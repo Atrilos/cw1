@@ -1,5 +1,6 @@
 package pro.sky.entity;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,6 +12,7 @@ import java.util.Objects;
  */
 @Setter
 @Getter
+@EqualsAndHashCode
 public class Employee {
 
     private static Long idCounter = 0L;
@@ -47,19 +49,5 @@ public class Employee {
     public String toStringWithoutDivision() {
         return "Employee(id=" + getId() + ", name=" + getName()
                 + ", salary=" + String.format("%.2f", getSalary()) + ")";
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return id.equals(employee.id) && Objects.equals(name, employee.name)
-                && Objects.equals(division, employee.division) && Objects.equals(salary, employee.salary);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name, division, salary);
     }
 }

@@ -1,5 +1,6 @@
 package pro.sky;
 
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import pro.sky.entity.Employee;
 
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
  * Contains various methods for modifying Employee, as well as modifying and searching within the repository.
  */
 @NoArgsConstructor
+@EqualsAndHashCode
 public class EmployeeBook {
 
     private final Scanner SC = new Scanner(System.in);
@@ -375,18 +377,5 @@ public class EmployeeBook {
                     .forEach(e -> System.out.println(e.toStringWithoutDivision()));
             System.out.println();
         }
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        EmployeeBook that = (EmployeeBook) o;
-        return Arrays.equals(employees, that.employees);
-    }
-
-    @Override
-    public int hashCode() {
-        return Arrays.hashCode(employees);
     }
 }
