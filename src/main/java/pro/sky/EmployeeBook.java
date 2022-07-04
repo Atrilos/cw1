@@ -284,10 +284,12 @@ public class EmployeeBook {
         int foundIndex = -1;
 
         for (int i = 0; i < MAX_SIZE; i++) {
-            if (employees[i] != null)
-                if (employees[i].getId().equals(id))
-                    foundIndex = i;
+            if (employees[i] != null && employees[i].getId().equals(id)) {
+                foundIndex = i;
+                break;
+            }
         }
+
         return foundIndex;
     }
 
@@ -297,8 +299,7 @@ public class EmployeeBook {
      * @return true if remove successful, false - otherwise
      */
     public boolean remove(long id) {
-        int foundIndex;
-        foundIndex = findEmployee(id);
+        int foundIndex = findEmployee(id);
         return removeByIndex(foundIndex);
     }
 
@@ -308,8 +309,7 @@ public class EmployeeBook {
      * @return true if remove successful, false - otherwise
      */
     public boolean remove(String name) {
-        int foundIndex;
-        foundIndex = findEmployee(name);
+        int foundIndex = findEmployee(name);
         return removeByIndex(foundIndex);
     }
 

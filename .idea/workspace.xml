@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6df293-4982-4ed3-9d04-00a12b00cf21" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1b6df293-4982-4ed3-9d04-00a12b00cf21" name="Changes" comment="equals and hashcode lombok annotations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +68,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Atrilos" />
+        <option name="repository" value="cw1" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -234,7 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656929526519</updated>
-      <workItem from="1656929528732" duration="15688000" />
+      <workItem from="1656929528732" duration="16536000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1656929618050</created>
@@ -243,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656929618050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CW done">
+      <created>1656947648932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656947648932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="equals and hashcode lombok annotations">
+      <created>1656948119491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656948119491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +281,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="CW done" />
+    <MESSAGE value="equals and hashcode lombok annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals and hashcode lombok annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,12 +295,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pro/sky/EmployeeBookTest.java</url>
-          <line>134</line>
+          <line>131</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pro/sky/EmployeeBookTest.java</url>
-          <line>127</line>
+          <line>124</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
